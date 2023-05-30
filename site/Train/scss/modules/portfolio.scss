@@ -1,0 +1,27 @@
+.portfolio {
+  width: 100%;
+  display: flex;
+  background-color: #f6f6f6;
+
+  &__text {
+    margin-top: 2.75rem;
+    font-size: 18px;
+    text-align: center;
+    text-decoration-line: underline;
+
+    &--title {
+      text-decoration-line: none;
+      font-size: 34px;
+      margin-top: 0;
+      margin-bottom: 4rem;
+    }
+  }
+
+  &__img {
+    margin-top: 6.5rem;
+
+    &--no {
+      margin-top: 0;
+    }
+  }
+}

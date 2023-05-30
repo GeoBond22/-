@@ -1,0 +1,20 @@
+@import "./modules/nav.scss";
+@import "./modules/portfolio.scss";
+@import "./modules/promo.scss";
+@import "./modules/about.scss";
+@import "./modules/skills.scss";
+@import "./modules/footer.scss";
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Gilroy-Bold", sans-serif;
+  color: #070707;
+}
+
+.container {
+  width: 59.125rem;
+  margin: 0 auto;
+}
