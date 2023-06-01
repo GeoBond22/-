@@ -1,0 +1,50 @@
+.nav {
+  display: flex;
+
+  height: 4.5rem;
+  width: 100%;
+  background: #1d1d1d;
+  align-items: center;
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__center {
+    width: 33.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__item {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    background: none;
+    &:hover { 
+      color: red;
+      background-color: #2a2a2a;
+    }
+
+    &--sale {
+      width: 92px;
+      height: 40px;
+      background: #ed1331;
+      border-radius: 50px;
+      &:hover {
+        transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+      }
+    }
+  }
+  &__left {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px; 
+    color: #ffffff;
+  }
+}

@@ -1,0 +1,38 @@
+@import "./modules/header.scss";
+@import "./modules/nav.scss";
+@import "./modules/promo.scss";
+@import "./modules/categorie.scss";
+@import "./modules/popular.scss";
+@import "./modules/actual.scss";
+@import "./modules/tosale.scss";
+@import "./modules/subscription.scss";
+@import "./modules/news.scss";
+@import "./modules/footer.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat";
+  color: #070707;
+}
+
+.container {
+  width: 80.4375rem;
+  margin: 0 auto;
+}
+.line {
+  all: initial;
+
+  background-color: none;
+  display: inline-flex;
+  border-bottom: 4px solid #dddddd;
+  border-radius: 5px;
+  width: 24px;
+
+  &-active {
+    width: 24px;
+    border-color: #2e73a5;
+  }
+}

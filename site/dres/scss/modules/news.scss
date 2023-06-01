@@ -1,0 +1,32 @@
+.news {
+  width: 100%;
+  margin-top: 5.3125rem;
+
+  &__title {
+    font-weight: 600;
+    font-size: 1.875rem;
+    margin-bottom: 2.5313rem;
+    color: #1d1d1d;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__subtitle {
+    margin-top: 1.3125rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: #1d1d1d;
+  }
+  &__para {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: #565656;
+    margin-bottom: 5rem;
+  }
+}

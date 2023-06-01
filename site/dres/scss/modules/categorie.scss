@@ -1,0 +1,26 @@
+.categorie {
+  display: flex;
+
+  &__img {
+    background: #13eded;
+    margin-right: 3.125rem;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 1.875rem;
+    color: #1d1d1d;
+
+    margin-bottom: 1.6875rem;
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #565656;
+    margin-bottom: 2.5625rem;
+  }
+  &__switch {
+    margin-top: 36px;
+  }
+}
